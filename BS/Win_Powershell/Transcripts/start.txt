@@ -1,0 +1,1 @@
+Start-Transcript -Path "SYT2BS_paul_$(Get-Date -Format yyyyMMdd-HHmmss).log"
