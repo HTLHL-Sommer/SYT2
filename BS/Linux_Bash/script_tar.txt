@@ -1,0 +1,6 @@
+tar -cf archiv.tar find_uebung/
+tar -tf archiv.tar
+tar -czf archiv.tar.gz find_uebung/
+ls -lh archiv.tar archiv.tar.gz
+mkdir entpackt
+tar -xf archiv.tar -C entpackt/
